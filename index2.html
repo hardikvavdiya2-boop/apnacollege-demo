@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>My Website new</title>
 </head>
 <body>
 
@@ -10,7 +10,19 @@
 
     <p>This is my home page.</p>
 
-    <button>Login</button>
+    <button onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <script>
+        function login() {
+            document.getElementById("message").innerText = "Login Successful";
+        }
+    </script>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
 
 </body>
 </html>
